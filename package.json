@@ -1,0 +1,27 @@
+{
+  "name": "messanger_assignment",
+  "version": "1.0.0",
+  "description": "This is a facebook messanger bot build as an assignment for a node.js developer role.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec src/server.js"
+  },
+  "author": "Anubhav Mehrotra",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.17.3",
+    "@babel/core": "^7.17.5",
+    "@babel/node": "^7.16.8",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "body-parser": "^1.19.2",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "heroku": "^7.59.2",
+    "nodemon": "^2.0.15"
+  }
+}
